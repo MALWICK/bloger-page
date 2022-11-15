@@ -237,11 +237,10 @@ h3 {
 }
 
 .senam1 {
-   display: grid;
+  display: grid;
   grid-template-columns: auto auto;
   gap: 24vw;
   align-items: center;
-  
 }
 
 .bt {
@@ -306,8 +305,6 @@ p {
   border-radius: 1px solid #fff;
 }
 
-
-
 @media (max-width: 768px) {
   .container {
     display: grid;
@@ -321,7 +318,7 @@ p {
   .btn2 {
     width: 17vw;
   }
-  
+
   .tag {
     margin-bottom: 3%;
   }
