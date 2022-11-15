@@ -1,0 +1,330 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  /*  padding: 0 auto; */
+  margin: 0;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+body {
+  background-color: #faf1f1;
+  display: grid;
+}
+
+.container {
+  width: 70%;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: auto 37%;
+  margin: auto;
+  align-content: center;
+  column-gap: 35px;
+  padding-top: 3%;
+  filter: drop-shadow(7px 4px 7px #949494);
+}
+
+hr {
+  border-top: #4b4a4a;
+}
+
+.bca {
+  line-height: 2;
+  background-color: #1b1a19;
+  color: #fffefe;
+  padding: 5%;
+  border-radius: 5px;
+}
+
+.bcare {
+  line-height: 2;
+  background-color: #1b1a19;
+  color: #fffefe;
+  padding: 5%;
+  border-radius: 5px;
+}
+
+.bcar {
+  background-color: #1b1a19;
+  color: #fffefe;
+  border-radius: 3px;
+  font-size: large;
+}
+
+.main-heading {
+  text-align: center;
+  align-content: center;
+  font-size: 45px;
+  margin-top: 5%;
+}
+
+#p1 {
+  text-align: center;
+  font-size: 15px;
+}
+
+.pho1 {
+  width: 100%;
+  height: 35vh;
+  background-size: cover;
+}
+
+.walk {
+  width: 100%;
+  height: 30vh;
+}
+
+.b1-fig {
+  width: 100%;
+  margin-top: -4px;
+  border-radius: 1%;
+  line-height: 1.6;
+  border: 1px solid #bbbbbb;
+}
+
+.b1-fig2 {
+  width: 100%;
+  background-color: #fbfffa;
+  margin-top: -4px;
+  border-radius: 1%;
+  border: 1px solid #dcd6d6;
+}
+
+.picture1 {
+  margin-bottom: 0.5rem;
+}
+
+.pop {
+  width: 64px;
+}
+
+.eyes {
+  width: 100%;
+  background-size: cover;
+}
+
+.vert {
+  display: block;
+  padding-bottom: 2%;
+  box-shadow: #7c7c7c 10px 10px 10px 10px;
+}
+
+.hori {
+  box-shadow: #7c7c7c 10px 10px 10px 10px;
+}
+
+.av {
+  grid-template-columns: auto auto;
+  background-color: #fffffe;
+  padding: 2px;
+  margin-top: 50px;
+  width: 100%;
+
+  border: 1px solid #cfcaca;
+  border-radius: 2%;
+  margin-bottom: 40px;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+  padding: auto;
+}
+
+.pop1 {
+  /*   text-align: left;
+   */
+  font-size: large;
+  background-color: #cbc3c3;
+  padding-left: 2%;
+  margin-bottom: 2%;
+}
+
+hr {
+  color: #e9dddd;
+}
+
+.namy {
+  width: 100%;
+  height: 22vh;
+  background-color: #f5f5f5;
+  margin-top: -4px;
+  line-height: 1.6;
+  border-radius: 1%;
+  border: 1px solid #f3edf3;
+}
+
+.tgbtn {
+  color: #1b1a19;
+  background-color: white;
+  text-decoration: #1b1a19;
+}
+
+.tag {
+  background-color: #fffffe;
+  width: 100%;
+  height: 11.6rem;
+  border: 1px solid #cfcaca;
+  border-radius: 2%;
+  margin-top: 10px;
+}
+
+.taghh {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  background-color: #dad1d1;
+  padding-left: 2%;
+}
+
+.blog2 {
+  width: 100%;
+}
+
+header {
+  font-size: 1.4rem;
+  padding-left: 1%;
+}
+
+.btn1 {
+  background-color: #f4f1f1;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+  padding: 1rem;
+  width: 8vw;
+  margin: 9%;
+}
+
+.btn2 {
+  background-color: #f6f6f6;
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+  padding: 1rem;
+  width: 8vw;
+  margin: 9%;
+}
+
+.pt {
+  font-size: 10px;
+  text-align: right;
+}
+
+h3 {
+  padding-left: 1%;
+}
+
+.hd1btn {
+  padding-left: 2%;
+}
+
+.hd1btn :hover {
+  background-color: #191818;
+  color: #dad1d1;
+  transition: 1s;
+}
+
+.pp {
+  display: flex;
+  line-height: 2;
+  gap: 2%;
+}
+
+.pp :hover {
+  background-color: #cbc2c2;
+  color: #191818;
+  transition: 1s;
+}
+
+.senam {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 24vw;
+}
+
+.senam1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bt {
+  padding-right: 5%;
+}
+
+.btp {
+  padding-right: 5%;
+}
+
+.fb1 {
+  background: #545353;
+  color: white;
+  border: 1px solid #191818;
+  width: 7%;
+  padding: 0.2rem;
+  height: 4vh;
+  font-size: large;
+}
+
+.fb2 {
+  color: white;
+  border: 1px solid #191818;
+  background: #191818;
+  width: 7%;
+  padding: 0.2rem;
+  height: 4vh;
+  font-size: large;
+}
+
+.fbutton {
+  margin-bottom: 3%;
+  margin-left: 2%;
+}
+
+.frame {
+  padding-top: 2%;
+  background-color: #383636;
+  width: 100%;
+}
+
+p {
+  margin-left: 1%;
+}
+
+/* figure {
+    text-align: center;
+  } */
+
+.tar {
+  color: white;
+  padding: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d6cdcd;
+  line-height: 2;
+  border-radius: 4px;
+}
+
+.tari .tavel {
+  color: #fff;
+  background-color: #545353;
+  border-radius: 1px solid #fff;
+}
+
+.chap1 {
+  padding-right: 2%;
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .btn1 {
+    width: 17vw;
+  }
+
+  .btn2 {
+    width: 17vw;
+  }
+}
