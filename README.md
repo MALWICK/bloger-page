@@ -32,12 +32,12 @@ This project provide information About Mrs Jane-Doe such as the Adress , profess
 ## CLONE PROJECT
 
     - To get a local copy up and running follow these simple example steps.
-    - Clone this repository with `https://github.com/MALWICK/cv-page-html` using your terminal or command line.
+    - Clone this repository with `https://malwick.github.io/bloger-page/` using your terminal or command line.
     - Change to the project directory by entering: - $ `cd cv ` in the terminal.
 
 ## Live site
 
-[Link](https://malwick.github.io/cv-page-html/)
+[Link](https://github.com/MALWICK/bloger-page/issues)
 
 ## CONTRIBUTION
 
