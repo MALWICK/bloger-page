@@ -2,11 +2,7 @@
 
 ## App
 
-![avarta](/assets/images/avatar_g.jpg)
-
-![bridge](/assets/images/bridge.jpg)
-
-![woods](/assets/images/woods.jpg)
+![MY_BLOG](/assets/images/Screenshot%20from%202022-11-15%2013-20-17.png)
 
 ## AUTHOR
 
@@ -43,4 +39,3 @@ This project provide information About Mrs Jane-Doe such as the Adress , profess
 
     Contributions, issues, and feature requests are welcome!
     Feel free to check the [issues page](https://github.com/MALWICK/cv-page-html/issues)
-
