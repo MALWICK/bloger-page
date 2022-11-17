@@ -74,10 +74,11 @@ hr {
 }
 
 .b1-fig {
+  background-color: white;
   width: 100%;
   margin-top: -4px;
   border-radius: 1%;
-  line-height: 1.6;
+  line-height: 2;
   border: 1px solid #bbb;
 }
 
@@ -86,7 +87,7 @@ hr {
   background-color: #fbfffa;
   margin-top: -4px;
   border-radius: 1%;
-  line-height: 1.6;
+  line-height: 2.2;
   border: 1px solid #dcd6d6;
 }
 
@@ -159,6 +160,7 @@ a {
   border: 1px solid #cfcaca;
   border-radius: 2%;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .taghh {
@@ -166,7 +168,6 @@ a {
   font-size: 2rem;
   margin-bottom: 10px;
   background-color: #e9e9e9;
-  padding-left: 2%;
 }
 
 .blog2 {
@@ -224,6 +225,20 @@ h3 {
   gap: 2%;
   margin-left: 7px;
   padding: 10px;
+}
+
+.ppl {
+  display: flex;
+  line-height: 2;
+  gap: 2%;
+  margin-left: 7px;
+  padding: 10px;
+}
+
+.ppl :hover {
+  background-color: #cbc2c2;
+  color: #191818;
+  transition: 1s;
 }
 
 .pp :hover {
@@ -290,16 +305,13 @@ p {
   margin-left: 1%;
 }
 
-/* figure {
-    text-align: center;
-  } */
-
 .tar {
   color: white;
   padding: 3px;
+  font-size: small;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #919090;
-  line-height: 2;
+  line-height: 3;
   border-radius: 4px;
 }
 
@@ -318,11 +330,14 @@ p {
   }
 
   .btn1 {
-    width: 17vw;
+    width: 18vw;
+    font-size: 15px;
   }
 
   .btn2 {
-    width: 17vw;
+    font-size: 15px;
+    width: 19vw;
+    padding-left: 1px;
   }
 
   .tag {
@@ -340,14 +355,63 @@ p {
   .fb2 {
     width: 16%;
   }
+
+  .senam {
+    width: 100%;
+  }
 }
 
 @media (max-width: 320px) {
   .btn1 {
-    width: 30vw;
+    width: 100%;
+    margin: 7px;
   }
 
   .btn2 {
-    width: 30vw;
+    width: 100%;
+    margin: 7px;
+  }
+
+  .tag {
+    margin-bottom: 30px;
+  }
+
+  .namy {
+    height: fit-content;
+    padding: 5px;
+    line-height: 1.7;
+  }
+
+  .eyes {
+    margin-top: 16px;
+  }
+
+  .senam {
+    font-size: small;
+  }
+
+  .lefteri {
+    display: none;
+  }
+
+  .ppl {
+    display: none;
+  }
+
+  .pho1 {
+    height: 15vh;
+  }
+
+  .walk {
+    height: 15vh;
+  }
+
+  .fb1 {
+    width: 40%;
+  }
+
+  .fb2 {
+    width: 30%;
+    padding: 0 10px;
   }
 }
