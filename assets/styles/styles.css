@@ -40,8 +40,8 @@ hr {
   line-height: 2;
   background-color: #1b1a19;
   color: #fffefe;
-  border-radius: 3px 2px ;
-  padding: 2.8%;
+  border-radius: -3px;
+  padding: 2.9%;
   margin: 5%;
 }
 
@@ -365,19 +365,15 @@ p {
   .senam {
     width: 100%;
   }
-
   
   .frame {
     height: 15vh;
     padding: 3%;
   }
 
-  .tar{
+  .tar {
     padding: 1%;
   }
-
-
-  
 }
 
 @media (max-width: 600px) {
@@ -441,16 +437,13 @@ p {
     padding: 4%;
   }
 
-
   .frame {
     height: 20vh;
     padding: 2%;
     margin-top: 8%;
   }
 
-  .lefterit{
+  .lefterit {
     display: none;
   }
-
-
 }
